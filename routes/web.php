@@ -15,5 +15,13 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/shops','ApiController@shops');
-Route::get('/detail','ApiController@detail');
+Route::get('/test',function (){
+//    $redis=new \Redis();
+//    $redis->connect('127.0.0.1','6379');
+////        echo 1;
+//    $redis->set('name','zhangsan');
+//    echo '<pre>';
+//    var_dump($redis->get('name'));exit;
+//    \Illuminate\Support\Facades\Redis::set('name','zhangsan');
+//    return '';
+});
