@@ -42,6 +42,12 @@ Route::post('/editAddress','ApiController@editAddress');
 Route::post('/addCart','ApiController@addCart');
 //获取购物车数据接口
 Route::get('/cart','ApiController@cart');
+//添加订单接口
+Route::post('/addOrder','ApiController@addOrder');
+//订单详情接口
+Route::get('/order','ApiController@order');
+//订单列表接口
+Route::get('/orderList','ApiController@orderList');
 
 
 

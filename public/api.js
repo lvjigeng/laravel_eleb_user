@@ -30,7 +30,7 @@ window.api = {
   // 获取购物车数据接口
   cart: '/api/cart',
   // 添加订单接口
-  addOrder: '/api/addorder',
+  addOrder: '/api/addOrder',
   // 支付接口
   pay: '/api/pay',
 
