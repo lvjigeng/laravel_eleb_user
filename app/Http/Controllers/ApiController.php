@@ -516,7 +516,7 @@ class ApiController extends Controller
 
             $order_id=DB::table('orders')->where('order_code',$order_code)->first()->id;
             //给用户发送下单成功短信
-//            $this->order_sms();
+            $this->order_sms();
             //给商家发送邮件
             $email=ShopAccount::find($shopId)->email;
             Mail::send('new_order',[],function ($message) use ($email){
