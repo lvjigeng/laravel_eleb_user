@@ -131,17 +131,17 @@ class ApiController extends Controller
 
         // *** 需用户填写部分 ***
         // fixme 必填: 请参阅 https://ak-console.aliyun.com/ 取得您的AK信息
-        $accessKeyId = "LTAI30Q0ptAtAIA5";
-        $accessKeySecret = "wUPYvVcnBSQGQv0cQPnqnYEB2YEqSl";
+        $accessKeyId = "";
+        $accessKeySecret = "";
 
         // fixme 必填: 短信接收号码
         $params["PhoneNumbers"] = $tel;
 
         // fixme 必填: 短信签名，应严格按"签名名称"填写，请参考: https://dysms.console.aliyun.com/dysms.htm#/develop/sign
-        $params["SignName"] = "耕哥小吃";
+        $params["SignName"] = "";
 
         // fixme 必填: 短信模板Code，应严格按"模板CODE"填写, 请参考: https://dysms.console.aliyun.com/dysms.htm#/develop/template
-        $params["TemplateCode"] = "SMS_133795013";
+        $params["TemplateCode"] = "";
 
         // fixme 可选: 设置模板参数, 假如模板中存在变量需要替换则为必填项
         //验证码
@@ -537,17 +537,17 @@ class ApiController extends Controller
 
         // *** 需用户填写部分 ***
         // fixme 必填: 请参阅 https://ak-console.aliyun.com/ 取得您的AK信息
-        $accessKeyId = "LTAI30Q0ptAtAIA5";
-        $accessKeySecret = "wUPYvVcnBSQGQv0cQPnqnYEB2YEqSl";
+        $accessKeyId = "";
+        $accessKeySecret = "";
 
         // fixme 必填: 短信接收号码
         $params["PhoneNumbers"] = Auth::user()->tel;
 
         // fixme 必填: 短信签名，应严格按"签名名称"填写，请参考: https://dysms.console.aliyun.com/dysms.htm#/develop/sign
-        $params["SignName"] = "耕哥小吃";
+        $params["SignName"] = "";
 
         // fixme 必填: 短信模板Code，应严格按"模板CODE"填写, 请参考: https://dysms.console.aliyun.com/dysms.htm#/develop/template
-        $params["TemplateCode"] = "SMS_134095451";
+        $params["TemplateCode"] = "";
 
         // fixme 可选: 设置模板参数, 假如模板中存在变量需要替换则为必填项
 
@@ -555,8 +555,8 @@ class ApiController extends Controller
 
         $params['TemplateParam'] = Array (
 
-            "name" => '耕哥小吃',
-//            "product" => "阿里通信"
+            "name" => '',
+//            "product" => ""
         );
 
         // fixme 可选: 设置发送短信流水号
